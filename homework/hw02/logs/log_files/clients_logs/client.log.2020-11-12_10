@@ -1,0 +1,39 @@
+2020-11-12 10:15:29,750 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:15:29,766 - INFO - messengerapp_client - None
+2020-11-12 10:16:51,903 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:16:51,908 - INFO - messengerapp_client - None
+2020-11-12 10:49:05,320 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:49:05,329 - INFO - messengerapp_client - None
+2020-11-12 10:49:24,786 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:49:24,791 - INFO - messengerapp_client - None
+2020-11-12 10:50:52,481 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:50:52,486 - INFO - messengerapp_client - None
+2020-11-12 10:52:08,699 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:52:08,705 - INFO - messengerapp_client - None
+2020-11-12 10:52:56,003 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:52:56,009 - DEBUG - messengerapp_client - None
+2020-11-12 10:53:41,739 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:53:41,744 - DEBUG - messengerapp_client - None
+2020-11-12 10:55:26,813 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:55:26,822 - INFO - messengerapp_client - None
+2020-11-12 10:56:03,984 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:56:03,990 - INFO - messengerapp_client - None
+2020-11-12 10:56:48,732 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:56:48,737 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:56:48,737 - INFO - messengerapp_client - None
+2020-11-12 10:56:50,023 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:56:50,031 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:56:50,031 - INFO - messengerapp_client - None
+2020-11-12 10:57:07,763 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:57:07,766 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:57:07,766 - INFO - messengerapp_client - None
+2020-11-12 10:57:23,849 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:57:23,852 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:58:28,642 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:58:28,647 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:58:36,342 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:58:36,346 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:58:37,635 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:58:37,639 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:58:54,693 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-12 10:58:54,696 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK

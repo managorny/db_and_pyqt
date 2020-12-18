@@ -1,0 +1,49 @@
+2020-11-14 15:57:31,636 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-14 15:57:31,637 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'listen') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 15:57:31,641 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 15:57:31,642 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351451.641669, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 15:57:31,647 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 15:57:31,647 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 15:58:11,511 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-14 15:58:11,511 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'listen') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 15:58:11,514 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 15:58:11,514 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351491.514283, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 15:58:11,515 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 15:58:11,515 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 15:59:26,935 - CRITICAL - client.py - messengerapp_client - В качестве порта может быть указано только число в диапазоне от 1024 до 65535.
+2020-11-14 16:00:23,340 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:00:23,341 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:00:23,341 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351623.340964, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:00:23,342 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:00:23,342 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:00:55,681 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:00:55,681 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:00:55,682 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351655.681912, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:00:55,683 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:00:55,683 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:01:37,517 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081, '') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:01:37,518 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:01:37,518 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351697.5181792, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:01:37,519 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:01:37,519 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:01:55,725 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081, 123) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:01:55,725 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:01:55,726 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351715.7258182, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:01:55,727 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:01:55,727 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:02:00,765 - CRITICAL - client.py - messengerapp_client - В качестве порта может быть указано только число в диапазоне от 1024 до 65535.
+2020-11-14 16:02:24,207 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081, 'send') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:02:24,207 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:02:24,208 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351744.207755, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:02:24,209 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:02:24,209 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:02:49,420 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081, 'send') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:02:49,420 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:02:49,421 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351769.420851, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:02:49,422 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:02:49,422 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:03:05,884 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('192.168.1.109', 8081, 'send') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:03:05,885 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-11-14 16:03:05,885 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605351785.885495, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-14 16:03:05,886 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-14 16:03:05,886 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"

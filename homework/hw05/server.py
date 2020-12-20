@@ -8,7 +8,7 @@ import threading
 import time
 from PyQt5.QtWidgets import QApplication, QMessageBox
 from PyQt5.QtCore import QTimer
-from server_ui import MainWindow, HistoryWindow, ConfigWindow, gui_create_model, create_stat_model
+from server.server_ui import MainWindow, HistoryWindow, ConfigWindow, gui_create_model, create_stat_model
 import logs.log_configs.server_log_config
 import logging
 from logs.log_configs.server_log_config import stream_handler  # - для теста в консоли.
@@ -19,7 +19,7 @@ from common.utils import get_message, send_message
 
 from metaclasses import ServerVerifier
 
-from server_db import ServerStorage
+from server.server_db import ServerStorage
 
 logger = logging.getLogger('messengerapp_server')
 
@@ -329,7 +329,7 @@ def make_sock_get_msg_send_answer():
             if 1023 < port < 65536:
                 config['SETTINGS']['default_port'] = str(port)
                 print(port)
-                with open('server_config.ini', 'w') as conf:
+                with open('server/server_config.ini', 'w') as conf:
                     config.write(conf)
                     message.information(
                         config_window, 'OK', 'Настройки успешно сохранены!')

@@ -1,0 +1,257 @@
+2020-11-13 09:02:04,736 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:02:04,746 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-13 09:02:36,121 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:02:36,125 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-13 09:02:39,019 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:02:39,025 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-13 09:02:41,281 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:02:41,286 - DEBUG - messengerapp_client - Функция get_answer, Результат - 200 : OK
+2020-11-13 09:04:18,606 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:04:18,610 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:04:18,610 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:04:22,858 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:04:22,863 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:04:22,863 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:04:59,472 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:04:59,476 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:04:59,476 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:04:59,476 - INFO - messengerapp_client - None
+2020-11-13 09:05:34,580 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:05:34,584 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:05:34,585 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:06:49,838 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:06:49,853 - DEBUG - messengerapp_client - Функция get_answer, Результат - 400 : Bad Request
+2020-11-13 09:10:14,183 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:10:14,187 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:10:14,187 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:10:14,188 - INFO - messengerapp_client - None
+2020-11-13 09:10:26,203 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:10:26,208 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:10:26,208 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:10:26,208 - INFO - messengerapp_client - None
+2020-11-13 09:11:26,339 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:11:26,343 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:11:26,344 - DEBUG - messengerapp_client - Функция get_answer, Результат - None
+2020-11-13 09:12:14,921 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:12:14,926 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:12:14,926 - DEBUG - messengerapp_client - Функция get_answer, Аргументы - ({'response': 400, 'error': 'Bad Request'},), {}
+2020-11-13 09:13:54,795 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:13:54,799 - ERROR - messengerapp_client - 400 : Bad Request
+2020-11-13 09:13:54,799 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 400, 'error': 'Bad Request'},), {}
+2020-11-13 09:14:07,242 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:14:07,246 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:14:07,246 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+2020-11-13 09:19:24,621 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:19:24,638 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:19:24,639 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}Вызов из функции [<FrameSummary file /Users/air/develop/client_server_app/homework/hw06/client.py, line 70 in <module>>, <FrameSummary file /Users/air/develop/client_server_app/homework/hw06/client.py, line 64 in make_sock_send_msg_get_answer>, <FrameSummary file /Users/air/develop/client_server_app/homework/hw06/decorators.py, line 17 in wrapper>]
+2020-11-13 09:20:23,073 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:20:23,078 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:20:23,078 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции [<FrameSummary file /Users/air/develop/client_server_app/homework/hw06/client.py, line 70 in <module>>, <FrameSummary file /Users/air/develop/client_server_app/homework/hw06/client.py, line 64 in make_sock_send_msg_get_answer>, <FrameSummary file /Users/air/develop/client_server_app/homework/hw06/decorators.py, line 17 in wrapper>]
+2020-11-13 09:21:07,642 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:21:07,647 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:21:07,664 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции [FrameInfo(frame=<frame at 0x104cfca40, file '/Users/air/develop/client_server_app/homework/hw06/decorators.py', line 18, code wrapper>, filename='/Users/air/develop/client_server_app/homework/hw06/decorators.py', lineno=18, function='wrapper', code_context=["        logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}\\n' \n"], index=0), FrameInfo(frame=<frame at 0x104d73040, file '/Users/air/develop/client_server_app/homework/hw06/client.py', line 64, code make_sock_send_msg_get_answer>, filename='/Users/air/develop/client_server_app/homework/hw06/client.py', lineno=64, function='make_sock_send_msg_get_answer', code_context=['        get_answer(get_message(sock))\n'], index=0), FrameInfo(frame=<frame at 0x104976800, file '/Users/air/develop/client_server_app/homework/hw06/client.py', line 70, code <module>>, filename='/Users/air/develop/client_server_app/homework/hw06/client.py', lineno=70, function='<module>', code_context=['    make_sock_send_msg_get_answer()\n'], index=0)]
+2020-11-13 09:23:04,980 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:23:04,986 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:23:04,986 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции <frame at 0x109d83a40, file '/Users/air/develop/client_server_app/homework/hw06/decorators.py', line 18, code wrapper>
+2020-11-13 09:24:08,743 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:24:08,751 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:24:08,751 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции <frame at 0x10a1aa040, file '/Users/air/develop/client_server_app/homework/hw06/client.py', line 64, code make_sock_send_msg_get_answer>
+2020-11-13 09:24:44,472 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:24:44,479 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:24:44,479 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x1052fdbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 54>
+2020-11-13 09:24:59,625 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:24:59,629 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:24:59,629 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x10fd6abe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 54>
+2020-11-13 09:29:35,583 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:29:35,584 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x10188cbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:29:35,588 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x10188cbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:29:35,597 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:29:35,597 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x10188cbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:29:43,787 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:29:43,787 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x1017c8be0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:29:43,790 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x1017c8be0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:29:43,791 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:29:43,791 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}
+Вызов из функции <code object make_sock_send_msg_get_answer at 0x1017c8be0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:31:26,095 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:31:26,095 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}  Вызов из функции <code object make_sock_send_msg_get_answer at 0x109a72be0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:31:26,099 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}  Вызов из функции <code object make_sock_send_msg_get_answer at 0x109a72be0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:31:26,100 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:31:26,100 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}  Вызов из функции <code object make_sock_send_msg_get_answer at 0x109a72be0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:31:46,150 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:31:46,150 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {};  Вызов из функции <code object make_sock_send_msg_get_answer at 0x10c33bbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:31:46,153 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {};  Вызов из функции <code object make_sock_send_msg_get_answer at 0x10c33bbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:31:46,154 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:31:46,154 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {};  Вызов из функции <code object make_sock_send_msg_get_answer at 0x10c33bbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:32:00,125 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:32:00,125 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {} - Вызов из функции <code object make_sock_send_msg_get_answer at 0x10bc0bbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:32:00,128 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {} - Вызов из функции <code object make_sock_send_msg_get_answer at 0x10bc0bbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:32:00,129 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:32:00,129 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {} - Вызов из функции <code object make_sock_send_msg_get_answer at 0x10bc0bbe0, file "/Users/air/develop/client_server_app/homework/hw06/client.py", line 56>
+2020-11-13 09:33:20,824 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:34:54,858 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:35:01,896 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:35:01,897 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {} . Вызов из функции <class 'code'>
+2020-11-13 09:35:01,900 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {} . Вызов из функции <class 'code'>
+2020-11-13 09:35:01,901 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:35:01,901 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {} . Вызов из функции <class 'code'>
+2020-11-13 09:38:46,170 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:38:46,171 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {} . Вызов из функции make_sock_send_msg_get_answer
+2020-11-13 09:38:46,176 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {} . Вызов из функции make_sock_send_msg_get_answer
+2020-11-13 09:38:46,181 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:38:46,181 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {} . Вызов из функции make_sock_send_msg_get_answer
+2020-11-13 09:39:21,125 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:39:21,126 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {} . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:39:21,130 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {} . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:39:21,132 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:39:21,132 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {} . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:39:58,218 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:39:58,220 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:39:58,224 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605242398.22424, 'user': {'account_name': 'Demo'}} . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:39:58,226 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:39:58,226 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - None . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:44:19,152 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:44:19,153 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:44:19,158 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605242659.158262, 'user': {'account_name': 'Demo'}} . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:44:19,159 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:44:19,159 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK . Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:45:28,184 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:45:28,185 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) / Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:45:28,188 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605242728.188457, 'user': {'account_name': 'Demo'}} / Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:45:28,189 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:45:28,189 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK / Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:45:40,035 - WARNING - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 09:45:40,036 - DEBUG - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:45:40,041 - DEBUG - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605242740.041877, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 09:45:40,042 - INFO - messengerapp_client - 200 : OK
+2020-11-13 09:45:40,043 - DEBUG - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:02:01,298 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:02:01,300 - DEBUG - decorators.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:02:01,306 - DEBUG - decorators.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605243721.3067489, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:02:01,312 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:02:01,313 - DEBUG - decorators.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:08:17,055 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:08:37,823 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:08:37,824 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:08:37,828 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605244117.828474, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:08:37,835 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:08:37,835 - DEBUG - client.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:10:50,932 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт - stack_info
+2020-11-13 10:10:50,933 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer" - stack_info
+2020-11-13 10:10:50,937 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605244250.937004, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer" - stack_info
+2020-11-13 10:10:50,938 - INFO - client.py - messengerapp_client - 200 : OK - stack_info
+2020-11-13 10:10:50,938 - DEBUG - client.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer" - stack_info
+2020-11-13 10:12:12,576 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:12:12,578 - DEBUG - decorators.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 65, in make_sock_send_msg_get_answer
+    sock.connect((load_params()))
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:12:12,583 - DEBUG - decorators.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605244332.582759, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 66, in make_sock_send_msg_get_answer
+    message_to_server = create_presence_message()
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:12:12,584 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:12:12,584 - DEBUG - decorators.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 70, in make_sock_send_msg_get_answer
+    get_answer(get_message(sock))
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:15:06,747 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:15:06,749 - DEBUG - decorators.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+NoneType: None
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 65, in make_sock_send_msg_get_answer
+    sock.connect((load_params()))
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:15:06,754 - DEBUG - decorators.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605244506.7540119, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+NoneType: None
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 66, in make_sock_send_msg_get_answer
+    message_to_server = create_presence_message()
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:15:06,755 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:15:06,755 - DEBUG - decorators.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+NoneType: None
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 70, in make_sock_send_msg_get_answer
+    get_answer(get_message(sock))
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:20:50,354 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:20:50,355 - DEBUG - decorators.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+NoneType: None
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 65, in make_sock_send_msg_get_answer
+    sock.connect((load_params()))
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:20:50,359 - DEBUG - decorators.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605244850.359211, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+NoneType: None
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 66, in make_sock_send_msg_get_answer
+    message_to_server = create_presence_message()
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:20:50,360 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:20:50,361 - DEBUG - decorators.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+NoneType: None
+Stack (most recent call last):
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 76, in <module>
+    make_sock_send_msg_get_answer()
+  File "/Users/air/develop/client_server_app/homework/hw06/client.py", line 70, in make_sock_send_msg_get_answer
+    get_answer(get_message(sock))
+  File "/Users/air/develop/client_server_app/homework/hw06/decorators.py", line 17, in wrapper
+    logger.debug(f'Функция {function.__name__}, аргументы - {args}, {kwargs}, результат - {result} | '
+2020-11-13 10:24:29,705 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:24:29,706 - DEBUG - decorators.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:24:29,710 - DEBUG - decorators.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605245069.710645, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:24:29,717 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:24:29,717 - DEBUG - decorators.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:25:43,489 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:25:43,490 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:25:43,495 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605245143.495807, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:25:43,496 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:25:43,497 - DEBUG - client.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:27:26,217 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт - None
+2020-11-13 10:27:26,218 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer" - None
+2020-11-13 10:27:26,222 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605245246.222781, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer" - None
+2020-11-13 10:27:26,223 - INFO - client.py - messengerapp_client - 200 : OK - None
+2020-11-13 10:27:26,224 - DEBUG - client.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer" - None2020-11-13 10:41:14,692 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-11-13 10:41:14,693 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:41:14,695 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - (), {}, результат - {'action': 'presence', 'time': 1605246074.695692, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-11-13 10:41:14,696 - INFO - client.py - messengerapp_client - 200 : OK
+2020-11-13 10:41:14,696 - DEBUG - client.py - messengerapp_client - Функция get_answer, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"

@@ -1,0 +1,119 @@
+2020-11-12 00:50:22,373 - messengerapp_server - INFO - Проверка отправки обычной информации
+2020-11-12 00:51:02,437 - messengerapp_server - INFO - Проверка отправки обычной информации
+2020-11-12 00:51:02,437 - messengerapp_server - ERROR - Проверка отправки ошибки
+2020-11-12 00:52:20,612 - messengerapp_server - INFO - Проверка отправки обычной информации
+2020-11-12 00:52:20,613 - messengerapp_server - ERROR - Проверка отправки ошибки
+2020-11-12 00:52:20,613 - messengerapp_server - DEBUG - Debug
+2020-11-12 00:52:20,613 - messengerapp_server - WARNING - Предупреждение
+2020-11-12 00:52:20,613 - messengerapp_server - CRITICAL - Критическая ситуация
+2020-11-12 00:52:29,625 - messengerapp_server - INFO - Проверка отправки обычной информации
+2020-11-12 00:52:29,626 - messengerapp_server - ERROR - Проверка отправки ошибки
+2020-11-12 00:52:29,626 - messengerapp_server - DEBUG - Debug
+2020-11-12 00:52:29,627 - messengerapp_server - WARNING - Предупреждение
+2020-11-12 00:52:29,627 - messengerapp_server - CRITICAL - Критическая ситуация
+2020-11-12 00:55:19,989 - INFO - messengerapp_server - Проверка отправки обычной информации
+2020-11-12 00:55:19,990 - ERROR - messengerapp_server - Проверка отправки ошибки
+2020-11-12 00:55:19,990 - DEBUG - messengerapp_server - Debug
+2020-11-12 00:55:19,990 - WARNING - messengerapp_server - Предупреждение
+2020-11-12 00:55:19,990 - CRITICAL - messengerapp_server - Критическая ситуация
+2020-11-12 00:59:03,762 - INFO - messengerapp_server - Проверка отправки обычной информации
+2020-11-12 00:59:03,763 - ERROR - messengerapp_server - Проверка отправки ошибки
+2020-11-12 00:59:03,763 - DEBUG - messengerapp_server - Debug
+2020-11-12 00:59:03,763 - WARNING - messengerapp_server - Предупреждение
+2020-11-12 00:59:03,763 - CRITICAL - messengerapp_server - Критическая ситуация
+2020-11-12 01:35:26,510 - INFO - messengerapp_server - {'action': 'presence', 'time': 1605126926.510157, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:35:33,761 - INFO - messengerapp_server - {'action': 'presence', 'time': 1605126933.7614138, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:35:35,123 - INFO - messengerapp_server - {'action': 'presence', 'time': 1605126935.123306, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:36:01,044 - INFO - messengerapp_server - {'action': 'presence', 'time': 1605126961.044539, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:36:02,124 - INFO - messengerapp_server - {'action': 'presence', 'time': 1605126962.124465, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:36:40,833 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127000.833181, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:36:42,345 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127002.3447301, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:36:43,235 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127003.2356339, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:38:15,897 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127095.8971279, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:38:16,393 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127096.393427, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:38:16,914 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127096.9141471, 'user': {'account_name': 'Demo'}}
+2020-11-12 01:38:17,418 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605127097.418635, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:15:29,763 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605158129.7577631, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:16:51,907 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605158211.907489, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:49:05,326 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160145.323853, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:49:24,790 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160164.7899892, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:50:52,485 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160252.485503, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:52:08,704 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160328.70376, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:52:56,008 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160376.008099, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:53:41,743 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160421.7433012, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:53:41,744 - DEBUG - messengerapp_server - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:55:26,820 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160526.817448, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:55:26,822 - DEBUG - messengerapp_server - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:56:03,989 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160563.9892612, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:56:03,990 - DEBUG - messengerapp_server - Функция get_answer, Результат - 200 : OK
+2020-11-12 10:56:48,737 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160608.736925, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:56:50,030 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160610.030443, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:57:07,766 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160627.7657988, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:57:23,852 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160643.8519669, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:58:28,647 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160708.646726, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:58:36,345 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160716.3455849, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:58:37,638 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160717.638635, 'user': {'account_name': 'Demo'}}
+2020-11-12 10:58:54,696 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605160734.6957781, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:02:04,745 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240124.745406, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:02:36,124 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240156.124676, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:02:39,025 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240159.024905, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:02:41,285 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240161.2854102, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:04:18,610 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240258.609735, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:04:22,862 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240262.86253, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:04:59,475 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240299.475512, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:05:34,584 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240334.58401, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:06:49,852 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240409.8524091, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:10:14,187 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240614.186792, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:10:26,207 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240626.206955, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:11:26,343 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240686.3427122, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:12:14,925 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240734.9251058, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:13:54,798 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240834.7982678, 'user': {'account_name': 'D2emo'}}
+2020-11-13 09:14:07,245 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605240847.2453482, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:19:24,631 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241164.627368, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:20:23,077 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241223.077044, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:21:07,646 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241267.646261, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:23:04,985 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241384.9850829, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:24:08,748 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241448.7480571, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:24:44,478 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241484.478264, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:24:59,629 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241499.628808, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:29:35,593 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241775.588043, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:29:43,791 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241783.790665, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:31:26,100 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241886.09963, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:31:46,154 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241906.153574, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:32:00,129 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605241920.128775, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:35:01,900 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242101.9001, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:38:46,179 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242326.175988, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:39:21,131 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242361.130859, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:39:58,224 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242398.22424, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:44:19,158 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242659.158262, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:45:28,189 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242728.188457, 'user': {'account_name': 'Demo'}}
+2020-11-13 09:45:40,042 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605242740.041877, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:02:01,310 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605243721.3067489, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:08:37,832 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605244117.828474, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:10:50,937 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605244250.937004, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:12:12,583 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605244332.582759, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:15:06,754 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605244506.7540119, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:20:50,360 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605244850.359211, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:24:29,713 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245069.710645, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:25:43,496 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245143.495807, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:27:26,223 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245246.222781, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:28:28,356 - INFO - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245308.356402, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:29:58,925 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245398.924909, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:29:59,949 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245399.948836, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:30:31,574 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245431.573482, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:33:38,291 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245618.291241, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:35:48,715 - DEBUG - server.py - messengerapp_server - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:35:50,598 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245750.598124, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:35:50,598 - DEBUG - server.py - messengerapp_server - Функция process_client_message, аргументы - ({'action': 'presence', 'time': 1605245750.598124, 'user': {'account_name': 'Demo'}},), {}, результат - {'response': 200} | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:36:48,364 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245808.363573, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:36:48,364 - DEBUG - server.py - messengerapp_server - Функция process_client_message, аргументы - ({'action': 'presence', 'time': 1605245808.363573, 'user': {'account_name': 'Demo'}},), {}, результат - {'response': 200} | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:37:56,336 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605245876.335739, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:37:56,336 - DEBUG - server.py - messengerapp_server - Функция process_client_message, аргументы - ({'action': 'presence', 'time': 1605245876.335739, 'user': {'account_name': 'Demo'}},), {}, результат - {'response': 200} | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:38:02,834 - DEBUG - server.py - messengerapp_server - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:40:53,970 - DEBUG - server.py - messengerapp_server - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:41:07,980 - DEBUG - server.py - messengerapp_server - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:41:14,696 - INFO - server.py - messengerapp_server - Сообщение: {'action': 'presence', 'time': 1605246074.695692, 'user': {'account_name': 'Demo'}}
+2020-11-13 10:41:14,696 - INFO - server.py - messengerapp_server - {'response': 200}
+2020-11-13 10:41:14,696 - DEBUG - server.py - messengerapp_server - Функция process_client_message, аргументы - ({'action': 'presence', 'time': 1605246074.695692, 'user': {'account_name': 'Demo'}},), {}, результат - {'response': 200} | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:48:15,677 - DEBUG - server.py - messengerapp_server - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_get_msg_send_answer"
+2020-11-13 10:49:24,445 - DEBUG - server.py - messengerapp_server - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777) | Вызов из функции "make_sock_get_msg_send_answer"

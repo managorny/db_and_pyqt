@@ -1,0 +1,460 @@
+2020-12-28 19:41:56,012 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:42:01,841 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 19:42:01,880 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:42:01,882 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:42:01,883 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 19:42:02,412 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:42:02,412 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:42:02,412 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 19:42:02,412 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609166522.412801, 'user': {'account_name': 'user1'}}
+2020-12-28 19:42:02,918 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:42:02,928 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 19:42:02,929 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609166522.929056, 'user': {'account_name': 'user1'}}
+2020-12-28 19:42:03,431 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4']}
+2020-12-28 19:42:03,441 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:42:35,803 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:42:39,987 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user4
+2020-12-28 19:42:40,031 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:42:40,034 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:42:40,034 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user4 сформировано
+2020-12-28 19:42:40,551 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:42:40,552 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:42:40,552 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user4
+2020-12-28 19:42:40,552 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609166560.552522, 'user': {'account_name': 'user4'}}
+2020-12-28 19:42:41,060 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:42:41,071 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user4
+2020-12-28 19:42:41,071 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609166561.0718222, 'user': {'account_name': 'user4'}}
+2020-12-28 19:42:41,569 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': []}
+2020-12-28 19:42:41,570 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:48:07,451 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 19:48:10,430 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 19:48:17,253 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:48:22,730 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 19:48:22,766 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:48:22,768 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:48:22,769 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 19:48:23,292 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:48:23,292 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:48:23,293 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 19:48:23,293 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609166903.293154, 'user': {'account_name': 'user1'}}
+2020-12-28 19:48:23,797 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:48:23,808 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 19:48:23,809 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609166903.809029, 'user': {'account_name': 'user1'}}
+2020-12-28 19:48:24,309 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4']}
+2020-12-28 19:48:24,319 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:48:35,037 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:48:38,905 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user4
+2020-12-28 19:48:38,948 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:48:38,950 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:48:38,950 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user4 сформировано
+2020-12-28 19:48:39,465 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:48:39,465 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:48:39,465 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user4
+2020-12-28 19:48:39,465 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609166919.4657059, 'user': {'account_name': 'user4'}}
+2020-12-28 19:48:39,968 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:48:39,978 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user4
+2020-12-28 19:48:39,979 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609166919.9791858, 'user': {'account_name': 'user4'}}
+2020-12-28 19:48:40,473 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': []}
+2020-12-28 19:48:40,473 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:48:50,761 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя user4
+2020-12-28 19:50:34,440 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 19:50:35,425 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 19:54:54,044 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:54:58,211 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 19:54:58,249 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:54:58,251 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:54:58,251 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 19:54:58,273 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:54:58,273 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:54:58,273 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 19:54:58,273 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609167298.273814, 'user': {'account_name': 'user1'}}
+2020-12-28 19:54:58,779 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:54:58,790 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 19:54:58,790 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609167298.790823, 'user': {'account_name': 'user1'}}
+2020-12-28 19:54:59,291 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4']}
+2020-12-28 19:54:59,306 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:55:06,496 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:55:10,709 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user4
+2020-12-28 19:55:10,753 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:55:10,756 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:55:10,756 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user4 сформировано
+2020-12-28 19:55:11,272 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:55:11,272 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:55:11,272 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user4
+2020-12-28 19:55:11,273 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609167311.272981, 'user': {'account_name': 'user4'}}
+2020-12-28 19:55:11,778 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:55:11,790 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user4
+2020-12-28 19:55:11,790 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609167311.790518, 'user': {'account_name': 'user4'}}
+2020-12-28 19:55:12,286 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': []}
+2020-12-28 19:55:12,286 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:55:19,856 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя user4
+2020-12-28 19:55:20,874 - DEBUG - interaction.py - messengerapp_client - Принято сообщение с сервера: {'action': 'message', 'time': 1609167319.85681, 'from': {'account_name': 'user1'}, 'to': {'account_name': 'user4'}, 'message_text': 'привет'}
+2020-12-28 19:56:52,778 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 19:57:09,944 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:57:15,957 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 19:57:16,000 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:57:16,003 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:57:16,004 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 19:57:16,528 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:57:16,528 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:57:16,528 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 19:57:16,529 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609167436.5289862, 'user': {'account_name': 'user1'}}
+2020-12-28 19:57:17,037 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:57:17,047 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 19:57:17,047 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609167437.047474, 'user': {'account_name': 'user1'}}
+2020-12-28 19:57:17,544 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4']}
+2020-12-28 19:57:17,556 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:57:26,362 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 19:57:33,648 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user4
+2020-12-28 19:57:33,693 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 19:57:33,696 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 19:57:33,696 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user4 сформировано
+2020-12-28 19:57:33,712 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 19:57:33,713 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 19:57:33,713 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user4
+2020-12-28 19:57:33,713 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609167453.713759, 'user': {'account_name': 'user4'}}
+2020-12-28 19:57:34,221 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user1', 'user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1']}
+2020-12-28 19:57:34,229 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user4
+2020-12-28 19:57:34,229 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609167454.229953, 'user': {'account_name': 'user4'}}
+2020-12-28 19:57:34,732 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': []}
+2020-12-28 19:57:34,733 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 19:57:44,077 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя user4
+2020-12-28 19:57:44,823 - DEBUG - interaction.py - messengerapp_client - Принято сообщение с сервера: {'action': 'message', 'time': 1609167464.076906, 'from': {'account_name': 'user1'}, 'to': {'account_name': 'user4'}, 'message_text': 'привет'}
+2020-12-28 20:11:22,135 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:11:32,669 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:11:36,936 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:11:36,967 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:11:36,970 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:11:36,970 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:11:37,493 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:11:37,493 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:11:37,493 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:11:37,493 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609168297.4938529, 'user': {'account_name': 'user1'}}
+2020-12-28 20:11:38,001 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:11:38,010 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:11:38,011 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609168298.011175, 'user': {'account_name': 'user1'}}
+2020-12-28 20:11:38,511 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': []}
+2020-12-28 20:11:38,512 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:11:49,131 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:11:53,156 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user4
+2020-12-28 20:11:53,198 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:11:53,201 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:11:53,201 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user4 сформировано
+2020-12-28 20:11:53,719 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:11:53,719 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:11:53,719 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user4
+2020-12-28 20:11:53,719 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609168313.719562, 'user': {'account_name': 'user4'}}
+2020-12-28 20:11:54,223 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:11:54,236 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user4
+2020-12-28 20:11:54,236 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609168314.2367098, 'user': {'account_name': 'user4'}}
+2020-12-28 20:11:54,730 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': []}
+2020-12-28 20:11:54,730 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:12:04,552 - DEBUG - interaction.py - messengerapp_client - Создание контакта user4
+2020-12-28 20:12:04,808 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:16:41,490 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 20:16:43,029 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:16:55,567 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:17:02,279 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:17:02,319 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:17:02,323 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:17:02,323 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:17:02,845 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:17:02,845 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:17:02,846 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:17:02,846 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609168622.8463202, 'user': {'account_name': 'user1'}}
+2020-12-28 20:17:03,355 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:17:03,366 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:17:03,367 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609168623.367126, 'user': {'account_name': 'user1'}}
+2020-12-28 20:17:03,868 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4']}
+2020-12-28 20:17:03,880 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:17:12,171 - DEBUG - interaction.py - messengerapp_client - Создание контакта Demo7
+2020-12-28 20:17:12,172 - DEBUG - interaction.py - messengerapp_client - Отправлено сообщение на создание контакта {'action': 'add_contact', 'time': 1609168632.1722639, 'user': {'account_name': 'user1'}, 'contact': {'account_name': 'Demo7'}}
+2020-12-28 20:17:12,447 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:20:24,443 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:20:30,573 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:20:30,612 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:20:30,615 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:20:30,615 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:20:31,143 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:20:31,144 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:20:31,144 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:20:31,144 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609168831.144543, 'user': {'account_name': 'user1'}}
+2020-12-28 20:20:31,650 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:20:31,663 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:20:31,663 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609168831.663251, 'user': {'account_name': 'user1'}}
+2020-12-28 20:20:32,164 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7']}
+2020-12-28 20:20:32,181 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:21:59,138 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:22:03,592 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:22:03,634 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:22:03,637 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:22:03,637 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:22:04,172 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:22:04,172 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:22:04,172 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:22:04,173 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609168924.17314, 'user': {'account_name': 'user1'}}
+2020-12-28 20:22:04,677 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:22:04,687 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:22:04,688 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609168924.68819, 'user': {'account_name': 'user1'}}
+2020-12-28 20:22:05,188 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7']}
+2020-12-28 20:22:05,207 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:22:08,757 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:22:08,757 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609168928.757248, 'user': {'account_name': 'user1'}}
+2020-12-28 20:22:09,218 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:22:09,226 - DEBUG - qdialogs.py - messengerapp_client - Обновление списка пользователей с сервера выполнено
+2020-12-28 20:24:23,320 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:24:27,923 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:24:27,956 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:24:27,958 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:24:27,958 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:24:28,483 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:24:28,483 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:24:28,483 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:24:28,483 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169068.483835, 'user': {'account_name': 'user1'}}
+2020-12-28 20:24:28,989 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:24:29,001 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:24:29,001 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169069.001951, 'user': {'account_name': 'user1'}}
+2020-12-28 20:24:29,502 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7']}
+2020-12-28 20:24:29,521 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:24:33,295 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:24:33,295 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169073.295475, 'user': {'account_name': 'user1'}}
+2020-12-28 20:24:33,525 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:24:33,532 - DEBUG - qdialogs.py - messengerapp_client - Обновление списка пользователей с сервера выполнено
+2020-12-28 20:24:41,648 - DEBUG - interaction.py - messengerapp_client - Создание контакта user5
+2020-12-28 20:24:41,648 - DEBUG - interaction.py - messengerapp_client - Отправлено сообщение на создание контакта {'action': 'add_contact', 'time': 1609169081.64861, 'user': {'account_name': 'user1'}, 'contact': {'account_name': 'user5'}}
+2020-12-28 20:24:42,101 - INFO - interaction.py - messengerapp_client - 200 : OK
+2020-12-28 20:24:42,101 - DEBUG - interaction.py - messengerapp_client - Получен ответ сервера на создание контакта 200 : OK
+2020-12-28 20:27:40,341 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:27:44,408 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:27:44,444 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:27:44,446 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:27:44,446 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:29:54,419 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:29:59,023 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:29:59,058 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:29:59,060 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:29:59,060 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:30:28,933 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:30:32,376 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:30:32,415 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:30:32,417 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:30:32,418 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:30:32,944 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:30:32,944 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:30:32,944 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:30:32,944 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169432.944684, 'user': {'account_name': 'user1'}}
+2020-12-28 20:30:33,451 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:30:33,464 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:30:33,465 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169433.4651651, 'user': {'account_name': 'user1'}}
+2020-12-28 20:30:33,969 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5']}
+2020-12-28 20:30:33,990 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:30:36,907 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:30:36,907 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169436.907719, 'user': {'account_name': 'user1'}}
+2020-12-28 20:30:37,498 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:30:37,506 - DEBUG - qdialogs.py - messengerapp_client - Обновление списка пользователей с сервера выполнено
+2020-12-28 20:30:42,499 - DEBUG - interaction.py - messengerapp_client - Создание контакта Demo8
+2020-12-28 20:30:42,499 - DEBUG - interaction.py - messengerapp_client - Отправлено сообщение на создание контакта {'action': 'add_contact', 'time': 1609169442.499425, 'user': {'account_name': 'user1'}, 'contact': {'account_name': 'Demo8'}}
+2020-12-28 20:30:42,547 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:30:42,547 - DEBUG - interaction.py - messengerapp_client - Получен ответ сервера на создание контакта {'response': 200}
+2020-12-28 20:30:42,554 - INFO - client_main_window.py - messengerapp_client - Успешно добавлен контакт <PyQt5.QtGui.QStandardItem object at 0x126f2e9d0>
+2020-12-28 20:30:49,866 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:30:55,640 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:30:55,686 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:30:55,691 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:30:55,692 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:30:55,714 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:30:55,714 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:30:55,714 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:30:55,714 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169455.714777, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:30:56,222 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:30:56,233 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:30:56,233 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169456.233769, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:31:01,239 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:31:01,240 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:31:11,127 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:32:45,704 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 20:32:47,746 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:33:00,849 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:33:05,572 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:33:05,614 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:33:05,619 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:33:05,619 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:33:06,144 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:33:06,144 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:33:06,144 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:33:06,144 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169586.144904, 'user': {'account_name': 'user1'}}
+2020-12-28 20:33:06,651 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:33:06,660 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:33:06,661 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169586.661199, 'user': {'account_name': 'user1'}}
+2020-12-28 20:33:07,209 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5', 'Demo8']}
+2020-12-28 20:33:07,244 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:33:09,184 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:33:13,957 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:33:13,998 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:33:14,010 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:33:14,010 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:33:14,033 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:33:14,033 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:33:14,033 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:33:14,033 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169594.033847, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:33:14,541 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:33:14,551 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:33:14,551 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169594.5513768, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:33:19,556 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:33:19,558 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:33:34,444 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:35:35,731 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 20:35:37,191 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:35:50,139 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:35:56,593 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:35:56,630 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:35:56,632 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:35:56,632 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:35:57,156 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:35:57,156 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:35:57,156 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:35:57,156 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169757.156736, 'user': {'account_name': 'user1'}}
+2020-12-28 20:35:57,664 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:35:57,675 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:35:57,675 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169757.675446, 'user': {'account_name': 'user1'}}
+2020-12-28 20:35:58,180 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5', 'Demo8']}
+2020-12-28 20:35:58,210 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:36:02,768 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:36:07,599 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:36:07,648 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:36:07,651 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:36:07,651 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:36:08,168 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:36:08,168 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:36:08,168 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:36:08,169 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169768.168978, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:36:08,674 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:36:08,683 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:36:08,683 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169768.683483, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:36:13,688 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:36:13,689 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:36:30,359 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:38:32,619 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:38:33,668 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 20:38:44,000 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:38:48,364 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:38:48,411 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:38:48,413 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:38:48,413 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:38:48,431 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:38:48,431 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:38:48,431 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:38:48,431 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169928.431802, 'user': {'account_name': 'user1'}}
+2020-12-28 20:38:48,937 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:38:48,947 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:38:48,948 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169928.9479702, 'user': {'account_name': 'user1'}}
+2020-12-28 20:38:49,451 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5', 'Demo8']}
+2020-12-28 20:38:49,484 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:38:52,138 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:39:01,445 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:39:01,492 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:39:01,495 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:39:01,495 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:39:02,017 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:39:02,017 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:39:02,018 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:39:02,018 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609169942.018243, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:39:02,524 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:39:02,534 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:39:02,534 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609169942.53481, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:39:07,539 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:39:07,540 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:39:15,733 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:40:59,773 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 20:41:02,058 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:41:14,584 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:41:18,958 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:41:19,002 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:41:19,005 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:41:19,005 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:41:19,536 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:41:19,536 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:41:19,537 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:41:19,537 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609170079.5371761, 'user': {'account_name': 'user1'}}
+2020-12-28 20:41:20,041 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:41:20,053 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:41:20,053 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609170080.053409, 'user': {'account_name': 'user1'}}
+2020-12-28 20:41:20,557 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5', 'Demo8']}
+2020-12-28 20:41:20,584 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:41:22,552 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:41:27,547 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:41:27,590 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:41:27,592 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:41:27,593 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:41:28,107 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:41:28,107 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:41:28,108 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:41:28,108 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609170088.10816, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:41:28,612 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:41:28,624 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:41:28,624 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609170088.624191, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:41:33,630 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:41:33,630 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:41:43,248 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:42:25,934 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.
+2020-12-28 20:42:27,346 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:42:38,681 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:42:44,029 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:42:44,069 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:42:44,073 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:42:44,073 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:42:44,596 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:42:44,596 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:42:44,596 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:42:44,596 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609170164.5968409, 'user': {'account_name': 'user1'}}
+2020-12-28 20:42:45,102 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:42:45,113 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:42:45,114 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609170165.1141639, 'user': {'account_name': 'user1'}}
+2020-12-28 20:42:45,620 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5', 'Demo8']}
+2020-12-28 20:42:45,649 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:42:51,852 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:42:56,566 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:42:56,611 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:42:56,619 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:42:56,619 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:42:56,638 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:42:56,638 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:42:56,638 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:42:56,638 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609170176.638925, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:42:57,145 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:42:57,154 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:42:57,155 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609170177.1549819, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:43:02,156 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:43:02,156 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:43:09,877 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:44:43,913 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-28 20:44:58,868 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:45:00,683 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-28 20:45:05,164 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - user1
+2020-12-28 20:45:05,214 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:45:05,224 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:45:05,224 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя user1 сформировано
+2020-12-28 20:45:05,252 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:45:05,252 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:45:05,253 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей user1
+2020-12-28 20:45:05,253 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609170305.253387, 'user': {'account_name': 'user1'}}
+2020-12-28 20:45:05,760 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:45:05,770 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя user1
+2020-12-28 20:45:05,770 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609170305.770496, 'user': {'account_name': 'user1'}}
+2020-12-28 20:45:06,276 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'contacts_list': ['user4', 'Demo7', 'user5', 'Demo8']}
+2020-12-28 20:45:06,305 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:45:12,479 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-28 20:45:12,521 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-28 20:45:12,523 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-28 20:45:12,523 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-28 20:45:13,041 - INFO - interaction.py - messengerapp_client - {'response': 200}
+2020-12-28 20:45:13,041 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-28 20:45:13,041 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-28 20:45:13,041 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1609170313.041902, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:45:13,550 - DEBUG - interaction.py - messengerapp_client - Получен ответ {'response': 202, 'users_list': ['user2', 'user3', 'user4', 'Demo5', 'Demo6', 'Demo7', 'Demo8', 'user5', 'user6', 'users1', 'user1']}
+2020-12-28 20:45:13,558 - DEBUG - interaction.py - messengerapp_client - Запрос списка контактов для пользователя Demo8
+2020-12-28 20:45:13,558 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'get_contacts', 'time': 1609170313.558667, 'user': {'account_name': 'Demo8'}}
+2020-12-28 20:45:18,560 - ERROR - interaction.py - messengerapp_client - Timeout соединения при обновлении списков пользователей.
+2020-12-28 20:45:18,564 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-28 20:45:24,433 - INFO - interaction.py - messengerapp_client - Отправлено сообщение для пользователя Demo8
+2020-12-28 20:46:57,360 - CRITICAL - interaction.py - messengerapp_client - Содениенение с сервером потеряно.

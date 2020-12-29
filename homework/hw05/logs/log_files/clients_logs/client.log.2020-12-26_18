@@ -1,0 +1,241 @@
+2020-12-26 16:42:24,416 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:42:24,774 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:42:24,774 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:42:25,780 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:42:26,782 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:42:27,783 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:42:28,785 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:42:29,788 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:42:44,713 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:43:34,218 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:43:34,477 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:43:34,478 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:43:35,480 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:43:36,481 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:43:37,482 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:43:38,485 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:43:39,487 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:50:57,122 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:50:57,408 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:50:57,409 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:50:58,413 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:50:59,414 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:51:00,415 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:51:01,420 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:51:02,422 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:51:18,874 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:51:19,083 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:51:19,084 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:51:20,086 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:51:21,088 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:51:22,089 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:51:23,092 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:51:24,094 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:51:24,094 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 16:52:28,408 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:52:28,620 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:52:28,620 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:52:29,622 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:52:30,623 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:52:31,625 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:52:32,628 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:52:33,630 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:52:33,631 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 16:52:33,631 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-26 16:52:33,631 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 16:55:40,531 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:56:34,068 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - вуьщ8
+2020-12-26 16:56:34,068 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:56:35,071 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:57:14,279 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:57:20,404 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:57:20,405 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:57:21,409 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:57:22,411 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:57:23,414 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:57:24,415 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:57:25,417 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:58:56,269 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 16:59:01,226 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 16:59:01,227 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 16:59:02,230 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 16:59:03,232 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 16:59:04,234 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 16:59:05,235 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 16:59:06,236 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 16:59:59,462 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:00:02,861 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:00:02,862 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:00:03,864 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 17:00:04,867 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 17:00:05,869 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 17:00:06,871 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 17:00:07,873 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 17:01:40,783 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:01:44,184 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:01:44,185 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:01:45,188 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 17:01:46,190 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 17:01:47,191 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 17:01:48,192 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 17:01:49,193 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 17:05:01,788 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:05:08,528 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:05:08,529 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:05:09,533 - INFO - interaction.py - messengerapp_client - Попытка подключения 2
+2020-12-26 17:05:10,535 - INFO - interaction.py - messengerapp_client - Попытка подключения 3
+2020-12-26 17:05:11,537 - INFO - interaction.py - messengerapp_client - Попытка подключения 4
+2020-12-26 17:05:12,539 - INFO - interaction.py - messengerapp_client - Попытка подключения 5
+2020-12-26 17:05:13,542 - CRITICAL - interaction.py - messengerapp_client - Не удалось установить соединение с сервером
+2020-12-26 17:06:07,059 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:06:12,223 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:06:12,223 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:06:12,229 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:06:12,229 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-26 17:06:17,230 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 17:06:51,412 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:06:55,842 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:06:55,842 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:06:55,844 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:06:55,844 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-26 17:06:56,347 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 17:06:56,347 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-26 17:06:56,347 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608984416.3476212, 'user': {'account_name': 'Demo8'}}
+2020-12-26 17:06:56,348 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 17:06:56,348 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 17:06:57,353 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 17:07:02,267 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 17:07:59,486 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:08:03,992 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:08:03,993 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:08:03,994 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:08:03,995 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-26 17:08:06,318 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 17:08:06,318 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo8
+2020-12-26 17:08:06,318 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608984486.3186922, 'user': {'account_name': 'Demo8'}}
+2020-12-26 17:08:06,319 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 17:08:06,325 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 17:08:07,360 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 17:08:10,777 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 17:08:18,315 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:08:31,310 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo8
+2020-12-26 17:08:31,311 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:08:31,321 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:08:31,322 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo8 сформировано
+2020-12-26 17:08:36,323 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 17:32:45,081 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:32:51,554 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 17:32:51,555 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:32:51,557 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:32:51,557 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 17:32:56,558 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 17:45:30,150 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:45:35,390 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 17:45:35,391 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:45:35,399 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:45:35,399 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 17:45:40,401 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 17:57:51,212 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:57:56,317 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 17:57:56,318 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:57:56,329 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:57:56,329 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 17:57:56,336 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 17:57:56,336 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 17:57:56,336 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608987476.336761, 'user': {'account_name': 'Demo9'}}
+2020-12-26 17:57:56,337 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 17:57:56,337 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 17:57:57,353 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 17:57:59,576 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 17:59:38,474 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 17:59:42,303 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 17:59:42,304 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 17:59:42,314 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 17:59:42,314 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 17:59:42,316 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 17:59:42,316 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 17:59:42,316 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608987582.316917, 'user': {'account_name': 'Demo9'}}
+2020-12-26 17:59:42,317 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 17:59:42,317 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 17:59:43,354 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 17:59:45,625 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 18:15:14,585 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:15:18,748 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:15:18,749 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:15:18,751 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:15:18,751 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:15:23,752 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 18:16:38,773 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:16:43,931 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:16:43,969 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:16:43,971 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:16:43,971 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:16:48,973 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером!
+2020-12-26 18:19:20,879 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:19:25,231 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:19:25,269 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:19:25,271 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:19:25,271 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:19:27,424 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 18:19:27,424 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 18:19:27,424 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608988767.424792, 'user': {'account_name': 'Demo9'}}
+2020-12-26 18:19:27,425 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 18:19:27,432 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 18:19:28,478 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 18:19:32,640 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 18:20:01,178 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:20:06,345 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:20:06,377 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:20:06,379 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:20:06,379 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:20:08,616 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 18:20:08,617 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 18:20:08,617 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608988808.617264, 'user': {'account_name': 'Demo9'}}
+2020-12-26 18:20:08,617 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 18:20:08,619 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 18:20:09,667 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 18:20:14,711 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 18:21:10,448 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:21:14,208 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:21:14,250 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:21:14,252 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:21:14,252 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:21:14,260 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 18:21:14,261 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 18:21:14,261 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608988874.2610922, 'user': {'account_name': 'Demo9'}}
+2020-12-26 18:21:14,261 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 18:21:14,261 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 18:21:15,299 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 18:21:18,372 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 18:24:08,204 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:24:14,092 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:24:14,120 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:24:14,124 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:24:14,125 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:24:14,129 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 18:24:14,129 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 18:24:14,129 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608989054.129837, 'user': {'account_name': 'Demo9'}}
+2020-12-26 18:25:19,867 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:25:24,420 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:25:24,456 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:25:24,458 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:25:24,458 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:25:24,466 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 18:25:24,466 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 18:25:24,466 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608989124.4665432, 'user': {'account_name': 'Demo9'}}
+2020-12-26 18:25:24,466 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 18:25:24,467 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 18:25:25,472 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 18:25:26,527 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.
+2020-12-26 18:28:20,093 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-26 18:28:22,928 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo9
+2020-12-26 18:28:22,959 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-26 18:28:22,961 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером
+2020-12-26 18:28:22,962 - INFO - interaction.py - messengerapp_client - Сообщение о присутствии пользователя Demo9 сформировано
+2020-12-26 18:28:22,969 - INFO - interaction.py - messengerapp_client - Соединение с сервером успешно установлено.
+2020-12-26 18:28:22,969 - DEBUG - interaction.py - messengerapp_client - Запрос списка известных пользователей Demo9
+2020-12-26 18:28:22,969 - DEBUG - interaction.py - messengerapp_client - Сформирован запрос {'action': 'users_list', 'time': 1608989302.9698691, 'user': {'account_name': 'Demo9'}}
+2020-12-26 18:28:22,970 - CRITICAL - interaction.py - messengerapp_client - Потеряно соединение с сервером.
+2020-12-26 18:28:22,970 - DEBUG - interaction.py - messengerapp_client - Запущена приемка сообщений с сервера.
+2020-12-26 18:28:24,009 - ERROR - interaction.py - messengerapp_client - Не удалось декодировать полученное сообщение.
+2020-12-26 18:28:29,592 - DEBUG - interaction.py - messengerapp_client - Взаимодействие завершено.

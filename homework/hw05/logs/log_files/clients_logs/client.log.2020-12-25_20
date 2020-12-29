@@ -1,0 +1,11 @@
+2020-12-25 19:39:55,342 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-25 19:39:55,343 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo8') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-25 19:40:21,991 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-25 19:40:21,992 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo8') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-25 19:40:39,936 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-25 19:40:39,936 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo8') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-25 19:47:51,011 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-25 20:28:07,248 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-25 20:28:39,900 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-25 20:28:40,125 - INFO - interaction.py - messengerapp_client - Попытка подключения 1
+2020-12-25 20:28:40,127 - DEBUG - interaction.py - messengerapp_client - Установлено соединение с сервером

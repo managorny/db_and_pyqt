@@ -1,0 +1,264 @@
+2020-12-06 18:27:42,429 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:30:12,175 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:31:29,684 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:31:29,685 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:31:29,685 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo
+2020-12-06 18:31:29,689 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-12-06 18:31:29,689 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo',), {}, результат - {'action': 'presence', 'time': 1607261489.689478, 'user': {'account_name': 'Demo'}} | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:31:29,691 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 18:31:29,691 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:31:41,984 - DEBUG - client.py - messengerapp_client - Функция create_message, аргументы - ('Demo', 'Demo', 'hi'), {}, результат - {'action': 'message', 'time': 1607261501.98459, 'from': {'account_name': 'Demo'}, 'to': {'account_name': 'Demo'}, 'message_text': 'hi'} | Вызов из функции "users_communication"
+2020-12-06 18:31:42,285 - INFO - client.py - messengerapp_client - Получено сообщение от Demo, текст сообщения: hi
+2020-12-06 18:52:47,427 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:52:47,428 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:52:47,428 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo
+2020-12-06 18:52:47,434 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-12-06 18:52:47,435 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo',), {}, результат - {'action': 'presence', 'time': 1607262767.43478, 'user': {'account_name': 'Demo'}} | Вызов из функции "clients_socket"
+2020-12-06 18:52:47,438 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 18:52:47,439 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:53:01,762 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:53:01,762 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:53:01,763 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo
+2020-12-06 18:53:01,766 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-12-06 18:53:01,766 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo',), {}, результат - {'action': 'presence', 'time': 1607262781.766208, 'user': {'account_name': 'Demo'}} | Вызов из функции "clients_socket"
+2020-12-06 18:53:02,270 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 18:53:02,271 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:53:27,785 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:53:27,785 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:53:27,785 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo
+2020-12-06 18:53:27,789 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo сформировано
+2020-12-06 18:53:27,790 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo',), {}, результат - {'action': 'presence', 'time': 1607262807.789834, 'user': {'account_name': 'Demo'}} | Вызов из функции "clients_socket"
+2020-12-06 18:53:27,791 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 18:53:27,791 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:55:25,135 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:55:25,135 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:55:25,135 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 18:55:25,140 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 18:55:25,140 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607262925.1401758, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 18:55:25,645 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 18:55:25,646 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:57:09,232 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:57:09,232 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:57:09,232 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 18:57:09,235 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 18:57:09,235 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607263029.235286, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 18:57:09,236 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 18:57:09,236 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:57:17,815 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:57:17,815 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:57:17,816 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 18:57:17,819 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 18:57:17,819 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607263037.819052, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 18:57:17,820 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 18:57:17,820 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:57:33,121 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:57:33,122 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:57:33,122 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 18:59:27,986 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 18:59:27,986 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:59:27,987 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 18:59:27,989 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 18:59:27,990 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607263167.989933, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 18:59:28,493 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 18:59:28,493 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 18:59:41,408 - DEBUG - client.py - messengerapp_client - Функция create_message, аргументы - (<SendingClient(Thread-2, started daemon 123145499090944)>, 'Demo123', 'Demo', 'privet'), {}, результат - {'action': 'message', 'time': 1607263181.408808, 'from': {'account_name': 'Demo123'}, 'to': {'account_name': 'Demo'}, 'message_text': 'privet'} | Вызов из функции "run"
+2020-12-06 19:01:28,056 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:01:28,056 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:01:28,057 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:01:45,522 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:01:45,523 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:01:45,523 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:01:45,526 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:01:45,526 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607263305.526059, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:01:46,032 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 19:01:46,032 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:02:06,630 - DEBUG - client.py - messengerapp_client - Функция create_message, аргументы - (<SendingClient(Thread-2, started daemon 123145485697024)>, 'Demo123', 'Demo123', 'privet'), {}, результат - {'action': 'message', 'time': 1607263326.630518, 'from': {'account_name': 'Demo123'}, 'to': {'account_name': 'Demo123'}, 'message_text': 'privet'} | Вызов из функции "run"
+2020-12-06 19:02:06,654 - INFO - client.py - messengerapp_client - Получено сообщение от Demo123, текст сообщения: privet
+2020-12-06 19:02:36,514 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:02:36,514 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:02:36,514 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:21:28,822 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:21:28,822 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:21:28,823 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:21:28,826 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:21:28,827 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607264488.826489, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:21:28,831 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 19:21:28,831 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:24:41,506 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:24:41,509 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:24:41,509 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:24:41,522 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:24:41,522 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607264681.522101, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:24:41,524 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 19:24:41,524 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:25:18,092 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:25:18,092 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:25:18,093 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:25:18,095 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:25:18,096 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607264718.0958369, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:25:18,602 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 19:25:18,603 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:26:29,153 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:26:29,153 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:26:29,154 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:26:29,157 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:26:29,158 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607264789.157742, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:26:29,663 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 19:26:29,663 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:39:36,972 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:39:36,972 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:39:36,972 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:53:28,773 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:53:28,773 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:53:28,773 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:53:28,777 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:53:28,777 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607266408.7776709, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:53:28,780 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 19:53:28,780 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:54:36,349 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:54:36,352 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:54:36,354 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:54:36,361 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:54:36,361 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607266476.3613791, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:54:36,363 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 19:54:36,363 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:55:41,942 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 19:55:41,943 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 19:55:41,943 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 19:55:41,945 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 19:55:41,946 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607266541.945895, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 19:55:41,948 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 19:55:41,948 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:01:24,179 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:01:24,180 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:01:24,180 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:01:24,183 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:01:24,184 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607266884.18382, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:01:24,689 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:01:24,689 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:02:30,067 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:02:30,068 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:02:30,068 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:11:42,426 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:11:42,426 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:11:42,426 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:11:42,432 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:11:42,433 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607267502.432671, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:11:42,435 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:11:42,435 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:12:18,192 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:12:18,192 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:12:18,192 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:12:18,196 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:12:18,196 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607267538.196258, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:12:18,703 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:12:18,703 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:15:54,048 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:15:54,050 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:15:54,051 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:15:54,057 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:15:54,057 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607267754.057548, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:15:54,567 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:15:54,568 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:18:35,287 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:18:35,288 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:18:35,288 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:18:35,292 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:18:35,292 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607267915.2920141, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:18:35,293 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:18:35,293 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:20:05,314 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:20:05,315 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:20:05,315 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:20:05,320 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:20:05,320 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268005.3203058, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:20:05,821 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:20:05,822 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:21:11,145 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:21:11,145 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:21:11,145 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:21:11,149 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:21:11,149 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268071.149626, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:21:11,656 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:21:11,656 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:21:40,171 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:21:40,172 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:21:40,172 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:21:40,175 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:21:40,176 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268100.175828, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:21:40,681 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:21:40,682 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:21:59,734 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:21:59,734 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:21:59,734 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:21:59,737 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:21:59,738 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268119.7378209, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:22:00,242 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:22:00,243 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:22:35,793 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:22:35,793 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:22:35,793 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:22:35,796 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:22:35,796 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268155.796416, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:22:36,301 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:22:36,302 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:24:14,318 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:24:14,319 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:24:14,319 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:24:14,324 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:24:14,324 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268254.3246899, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:24:14,827 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:24:14,828 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:25:02,678 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:25:02,678 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:25:02,678 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:25:02,682 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:25:02,682 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268302.6821609, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:25:03,187 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:25:03,187 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:25:28,733 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:25:28,733 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:25:28,733 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:25:28,738 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:25:28,738 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268328.738009, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:25:29,239 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:25:29,240 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:26:43,140 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:26:43,140 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:26:43,141 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:26:43,144 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:26:43,145 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268403.1448221, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:26:43,145 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:26:43,146 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:28:21,466 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:28:21,466 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:28:21,467 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:28:21,470 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:28:21,470 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268501.470149, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:28:21,976 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:28:21,976 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:31:37,074 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:31:37,074 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:31:37,074 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:31:37,079 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:31:37,079 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607268697.0796459, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:31:37,091 - INFO - client.py - messengerapp_client - 400 : Пользователь с таким именем уже существует.
+2020-12-06 20:31:37,091 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 400, 'error': 'Пользователь с таким именем уже существует.'},), {}, результат - 400 : Пользователь с таким именем уже существует. | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:40:24,935 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:40:24,936 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:40:24,936 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:40:24,940 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:40:24,940 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607269224.940456, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:40:24,942 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:40:24,942 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:40:48,143 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:40:48,143 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:40:48,143 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:42:06,937 - WARNING - client.py - messengerapp_client - Использованы дефолтные адрес и порт
+2020-12-06 20:42:06,938 - DEBUG - client.py - messengerapp_client - Функция load_params, аргументы - (), {}, результат - ('localhost', 7777, 'Demo123') | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:42:06,938 - INFO - client.py - messengerapp_client - Запущен клиент с парамертами: адрес сервера - localhost, порт - 7777, режим работы - Demo123
+2020-12-06 20:42:06,941 - INFO - client.py - messengerapp_client - Сообщение о присутствии пользователя Demo123 сформировано
+2020-12-06 20:42:06,941 - DEBUG - client.py - messengerapp_client - Функция create_presence_message, аргументы - ('Demo123',), {}, результат - {'action': 'presence', 'time': 1607269326.941479, 'user': {'account_name': 'Demo123'}} | Вызов из функции "clients_socket"
+2020-12-06 20:42:07,444 - INFO - client.py - messengerapp_client - 200 : OK
+2020-12-06 20:42:07,444 - DEBUG - client.py - messengerapp_client - Функция get_response, аргументы - ({'response': 200},), {}, результат - 200 : OK | Вызов из функции "make_sock_send_msg_get_answer"
+2020-12-06 20:42:19,532 - INFO - client.py - messengerapp_client - Получено сообщение от Demo123, текст сообщения: privet

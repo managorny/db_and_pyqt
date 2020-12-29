@@ -81,7 +81,7 @@ class MainWindow(QMainWindow):
         self.toolbar.addAction(exitAction)
         self.toolbar.addAction(self.refresh_button)
         self.toolbar.addAction(self.show_history_button)
-        self.toolbar.addAction(self.config_btn)
+        self.toolbar.addAction(self.config_button)
 
         # Настройки размеров и позиции основного окна
         # Пока делаем фикс размеры (но можно и динамические)
@@ -94,9 +94,9 @@ class MainWindow(QMainWindow):
         self.label.move(10, 25)
 
         # Окно со списком подключённых пользователей
-        self.active_clients_table = QTableView(self)
-        self.active_clients_table.move(10, 45)
-        self.active_clients_table.setFixedSize(780, 400)
+        self.active_users_table = QTableView(self)
+        self.active_users_table.move(10, 45)
+        self.active_users_table.setFixedSize(780, 400)
 
         # Последним параметром отображаем окно.
         self.show()
@@ -126,9 +126,9 @@ class HistoryWindow(QDialog):
         self.close_button.clicked.connect(self.close)
 
         # Лист с собственно историей
-        self.history_table = QTableView(self)
-        self.history_table.move(10, 10)
-        self.history_table.setFixedSize(580, 620)
+        self.login_history_table = QTableView(self)
+        self.login_history_table.move(10, 10)
+        self.login_history_table.setFixedSize(580, 620)
 
         self.show()
 

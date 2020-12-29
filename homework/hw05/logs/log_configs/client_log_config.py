@@ -23,7 +23,7 @@ file_handler.setFormatter(formatter)
 
 # хэндлер в поток
 stream_handler = logging.StreamHandler()
-stream_handler.setLevel(logging.ERROR)
+stream_handler.setLevel(logging.INFO)
 stream_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)

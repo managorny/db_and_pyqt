@@ -11,10 +11,9 @@ from sqlalchemy.orm import mapper, sessionmaker
 class ServerStorage:
     # создаем шаблоны таблиц (традиционный стиль)
     class Users:
-        def __init__(self, username, info, date_create):
+        def __init__(self, username, date_create):
             self.id = None
             self.username = username
-            self.info = info
             self.date_create = date_create
             self.last_login = datetime.datetime.now()
             self.last_logout = None
@@ -52,7 +51,8 @@ class ServerStorage:
             self.received = 0
 
     def __init__(self, server_database_path):
-        self.database_engine = create_engine(f'sqlite:///server/{server_database_path}', echo=False, pool_recycle=3600)
+        self.database_engine = create_engine(f'sqlite:///server/{server_database_path}', echo=False,
+                                             pool_recycle=3600, connect_args={'check_same_thread': False})
 
         self.metadata = MetaData()
 
@@ -118,7 +118,7 @@ class ServerStorage:
 
         # фиксируем вход в базу
 
-    def user_login(self, username, info, ip_address, port):
+    def user_login(self, username, ip_address, port):
         query = self.session.query(self.Users).filter_by(username=username)
 
         # если пользователь существует, обновляем дату последнего входа
@@ -129,7 +129,7 @@ class ServerStorage:
         # если пользователя нет, то создаем его и записываем дату создания
         else:
             date_create = datetime.datetime.now()
-            user = self.Users(username, info, date_create)
+            user = self.Users(username, date_create)
 
             self.session.add(user)
             self.session.commit()
@@ -221,7 +221,7 @@ class ServerStorage:
         contacts_list = self.session.query(self.Contacts).filter_by(owner_id=user.id)
         contacts_list_names = []
         for row in contacts_list:
-            if row.id is not None:
+            if row.user_id is not None:
                 name = self.session.query(self.Users).filter_by(id=row.user_id).first()
                 contacts_list_names.append(name.username)
 

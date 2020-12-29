@@ -4,6 +4,8 @@ import socket
 import time
 import logging
 import threading
+import traceback
+
 from PyQt5.QtCore import pyqtSignal, QObject
 
 sys.path.append('../')
@@ -26,8 +28,6 @@ class ClientInteraction(threading.Thread, QObject):
         threading.Thread.__init__(self)
         QObject.__init__(self)
 
-        self.sock = ip
-        self.port = port
         self.client_account_name = client_account_name
         self.client_database = client_database
         self.sock = None
@@ -37,10 +37,12 @@ class ClientInteraction(threading.Thread, QObject):
             self.get_users_list()
             self.get_contacts_list()
         except OSError as err:
+            print('Ошибка1', traceback.format_exc())
             if err.errno:
                 logger.critical(f'Потеряно соединение с сервером.')
             logger.error('Timeout соединения при обновлении списков пользователей.')
         except json.JSONDecodeError:
+            print('Ошибка2', traceback.format_exc())
             logger.critical(f'Потеряно соединение с сервером.')
             # Флаг продолжения работы взаимодействия.
         self.running = True
@@ -66,7 +68,7 @@ class ClientInteraction(threading.Thread, QObject):
         # Если соединится не удалось - исключение
         if not connected:
             logger.critical('Не удалось установить соединение с сервером')
-            raise Exception
+            raise Exception("Не удалось установить соединение с сервером")
 
         logger.debug('Установлено соединение с сервером')
 
@@ -78,6 +80,7 @@ class ClientInteraction(threading.Thread, QObject):
         except (OSError, json.JSONDecodeError):
             logger.critical('Потеряно соединение с сервером!')
             raise Exception
+        # ('Потеряно соединение с сервером!')
 
         # Если все ок, то пишем соответствующее сообщение
         logger.info('Соединение с сервером успешно установлено.')
@@ -88,42 +91,41 @@ class ClientInteraction(threading.Thread, QObject):
             ACTION: PRESENCE,
             TIME: time.time(),
             USER: {
-                ACCOUNT_NAME: self.username,
-                INFO: 'very good user'
+                ACCOUNT_NAME: self.client_account_name,
             }
         }
-        logger.info(f'Сообщение о присутствии пользователя {self.username} сформировано')
+        logger.info(f'Сообщение о присутствии пользователя {self.client_account_name} сформировано')
         return presence_message
 
     def get_response(self, message):
         if RESPONSE in message:
             if message[RESPONSE] == 200:
-                response = '200 : OK'
-                logger.info(response)
-                return response
-            error = message[ERROR]
-        elif message[RESPONSE] == 400:
-            logger.error(error)
-        else:
-            logger.debug(f'Принят неизвестный код подтверждения {message[RESPONSE]}')
+                logger.info(message)
+                return message
+            elif message[RESPONSE] == 400:
+                error = message[ERROR]
+                logger.error(error)
+            else:
+                logger.debug(f'Принят неизвестный код подтверждения {message[RESPONSE]}')
 
         # Если это сообщение от пользователя добавляем в базу, даём сигнал о новом сообщении
-        if ACTION in message and FROM in message and MESSAGE_CLIENT in message \
+        elif ACTION in message and FROM in message and MESSAGE_CLIENT in message \
                 and message[ACTION] == MESSAGE and FROM in message and \
-                TO in message and message[TO][ACCOUNT_NAME] == self.username:
+                TO in message and message[TO][ACCOUNT_NAME] == self.client_account_name:
             sender = message[FROM][ACCOUNT_NAME]
             text_message = message[MESSAGE_CLIENT]
             to_user = message[TO][ACCOUNT_NAME]
             logger.debug(f'Получено сообщение от {sender}, текст сообщения: {text_message}')
             with database_lock:
-                self.client_database.save_message(self.username, to_user, text_message)
-            self.new_message.emit(message[sender])
+                self.client_database.save_message(sender, to_user, text_message)
+            self.new_message.emit(sender)
 
     def send_new_message(self, to_user, message):
+        message_dict = self.create_message(to_user, message)
         with socket_lock:
-            send_message(self.sock, self.create_message(self.username, to_user, message))
-            self.get_response(get_message(self.sock))
+            send_message(self.sock, message_dict)
             logger.info(f'Отправлено сообщение для пользователя {to_user}')
+            self.get_response(get_message(self.sock))
 
     def create_message(self, to_user, client_message):
         with database_lock:
@@ -134,7 +136,7 @@ class ClientInteraction(threading.Thread, QObject):
             ACTION: MESSAGE,
             TIME: time.time(),
             FROM: {
-                ACCOUNT_NAME: self.username
+                ACCOUNT_NAME: self.client_account_name
             },
             TO: {
                 ACCOUNT_NAME: to_user
@@ -145,12 +147,12 @@ class ClientInteraction(threading.Thread, QObject):
         return message
 
     def get_users_list(self):
-        logger.debug(f'Запрос списка известных пользователей {self.username}')
+        logger.debug(f'Запрос списка известных пользователей {self.client_account_name}')
         request_message = {
             ACTION: USERS_LIST,
             TIME: time.time(),
             USER: {
-                ACCOUNT_NAME: self.username
+                ACCOUNT_NAME: self.client_account_name
             },
         }
         logger.debug(f'Сформирован запрос {request_message}')
@@ -158,18 +160,19 @@ class ClientInteraction(threading.Thread, QObject):
         with socket_lock:
             send_message(self.sock, request_message)
             response = get_message(self.sock)
+        logger.debug(f'Получен ответ {response}')
         if RESPONSE in response and 'users_list' in response:
             self.client_database.add_known_users(response['users_list'])
         else:
             logger.error('Не удалось обновить список известных пользователей.')
 
     def get_contacts_list(self):
-        logger.debug(f'Запрос списка контактов для пользователя {self.username}')
+        logger.debug(f'Запрос списка контактов для пользователя {self.client_account_name}')
         request = {
             ACTION: GET_CONTACTS,
             TIME: time.time(),
             USER: {
-                ACCOUNT_NAME: self.username,
+                ACCOUNT_NAME: self.client_account_name,
             }
         }
         logger.debug(f'Сформирован запрос {request}')
@@ -178,7 +181,7 @@ class ClientInteraction(threading.Thread, QObject):
             response = get_message(self.sock)
         logger.debug(f'Получен ответ {response}')
         if RESPONSE in response and 'contacts_list' in response:
-            for contact in response['users_list']:
+            for contact in response['contacts_list']:
                 self.client_database.add_contact(contact)
         else:
             logger.error('Не удалось обновить список контактов.')
@@ -190,22 +193,23 @@ class ClientInteraction(threading.Thread, QObject):
             ACTION: ADD_CONTACT,
             TIME: time.time(),
             USER: {
-                ACCOUNT_NAME: self.username,
+                ACCOUNT_NAME: self.client_account_name,
             },
             CONTACT: {
                 ACCOUNT_NAME: contact,
             },
         }
-        # print(username, contact)
+        # print(client_account_name, contact)
         # print(request_message)
         with socket_lock:
             send_message(self.sock, request_message)
+            logger.debug(f'Отправлено сообщение на создание контакта {request_message}')
             response = self.get_response(get_message(self.sock))
-        # print(response)
+            logger.debug(f'Получен ответ сервера на создание контакта {response}')
         if RESPONSE in response and response[RESPONSE] == 200:
             pass
         else:
-            raise print('Ошибка создания контакта')
+            raise Exception('Ошибка создания контакта')
         print('Успешное создание контакта')
 
     # Функция удаления пользователя из списка контактов
@@ -215,7 +219,7 @@ class ClientInteraction(threading.Thread, QObject):
             ACTION: REMOVE_CONTACT,
             TIME: time.time(),
             USER: {
-                ACCOUNT_NAME: self.username,
+                ACCOUNT_NAME: self.client_account_name,
             },
             CONTACT: {
                 ACCOUNT_NAME: contact,
@@ -227,7 +231,7 @@ class ClientInteraction(threading.Thread, QObject):
         if RESPONSE in response and response[RESPONSE] == 200:
             pass
         else:
-            raise print('Ошибка удаления контакта')
+            raise Exception('Ошибка удаления контакта')
         print('Успешное удаление контакта')
 
     def get_history(self, command):
@@ -248,7 +252,7 @@ class ClientInteraction(threading.Thread, QObject):
 
     def socket_shutdown(self):
         self.running = False
-        exit_message = {ACTION: 'exit', TIME: time.time(), ACCOUNT_NAME: self.username}
+        exit_message = {ACTION: 'exit', TIME: time.time(), ACCOUNT_NAME: self.client_account_name}
         with socket_lock:
             try:
                 send_message(self.sock, exit_message)
@@ -259,26 +263,23 @@ class ClientInteraction(threading.Thread, QObject):
 
     def run(self):
         logger.debug('Запущена приемка сообщений с сервера.')
-        time.sleep(1)
-        with socket_lock:
-            try:
-                self.sock.settimeout(0.5)
-                response = get_message(self.sock)
-            except Exception as ex:
-                logger.error(f'Не удалось декодировать полученное сообщение.')
-                self.running = False
-                self.connection_lost.emit()
-            except OSError as err:
-                if err.errno:
+        while self.running:
+            time.sleep(1)
+            with socket_lock:
+                try:
+                    self.sock.settimeout(0.5)
+                    response = get_message(self.sock)
+                except OSError as err:
+                    if err.errno:
+                        logger.critical(f'Содениенение с сервером потеряно.')
+                        self.running = False
+                        self.connection_lost.emit()
+                except (ConnectionError, ConnectionAbortedError, ConnectionResetError, json.JSONDecodeError):
                     logger.critical(f'Содениенение с сервером потеряно.')
                     self.running = False
                     self.connection_lost.emit()
-            except (ConnectionError, ConnectionAbortedError, ConnectionResetError, json.JSONDecodeError):
-                logger.critical(f'Содениенение с сервером потеряно.')
-                self.running = False
-                self.connection_lost.emit()
-            else:
-                logger.debug(f'Принято сообщение с сервера: {response}')
-                self.get_response(response)
-            finally:
-                self.sock.settimeout(5)
+                else:
+                    logger.debug(f'Принято сообщение с сервера: {response}')
+                    self.get_response(response)
+                finally:
+                    self.sock.settimeout(5)

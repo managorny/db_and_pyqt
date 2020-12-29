@@ -1,9 +1,13 @@
 import sys
+
+from sqlalchemy.pool import SingletonThreadPool
+
 sys.path.append('../')
 from common.default_conf import *  # взял из примера, помогло, не знаю почему, ответ пока не нашел
 import datetime
 from sqlalchemy import create_engine, MetaData, Table, Column, INT, VARCHAR, DATETIME, TEXT, ForeignKey
 from sqlalchemy.orm import mapper, sessionmaker
+from sqlalchemy import or_
 
 
 class ClientStorage:
@@ -26,7 +30,9 @@ class ClientStorage:
             self.username = username
 
     def __init__(self, username):
-        self.database_engine = create_engine(f'sqlite:///client_{username}_db.db3', echo=False, pool_recycle=3600)
+        self.database_engine = create_engine(f'sqlite:///client/client_{username}_db.db3', echo=False,
+                                             pool_recycle=3600, poolclass=SingletonThreadPool,
+                                             connect_args={'check_same_thread': False})
 
         self.metadata = MetaData()
 
@@ -117,16 +123,13 @@ class ClientStorage:
             return False
 
     # получение списка истории сообщений
-    def get_message_history(self, from_user=None, to_user=None):
-        messages = self.session.query(self.MessageHistory)
-        if from_user:
-            messages = messages.filter_by(from_user=from_user)
-        if to_user:
-            messages = messages.filter_by(to_user=to_user)
-        for message in messages:
-            # print(f'{message.from_user} - {message.to_user} - {message.message} - {message.date}')
-            return [(history_row.from_user, history_row.to_user, history_row.message, history_row.date)
-                    for history_row in messages.all()]
+    def get_message_history(self, user):
+        messages = self.session.query(self.MessageHistory).filter(or_(self.MessageHistory.from_user.like(user),
+                                                                      self.MessageHistory.to_user.like(user)))
+        # for message in messages:
+        # print(f'{message.from_user} - {message.to_user} - {message.message} - {message.date}')
+        return [(history_row.from_user, history_row.to_user, history_row.message, history_row.date)
+                for history_row in messages.all()]
 
 
 if __name__ == '__main__':
@@ -148,9 +151,9 @@ if __name__ == '__main__':
     print('user1')
     test_client_storage.get_message_history('user1')
     print('from_user=user2')
-    test_client_storage.get_message_history(from_user='user2')
+    test_client_storage.get_message_history('user2')
     print('to_user=user3')
-    test_client_storage.get_message_history(to_user='user3')
+    test_client_storage.get_message_history('user3')
 
     test_client_storage.remove_contact('user3')
     print(test_client_storage.get_contacts())

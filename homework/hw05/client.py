@@ -1,17 +1,12 @@
 import sys
-import json
-import socket
-import time
 import logs.log_configs.client_log_config
 import logging
 # from logs.log_configs.client_log_config import stream_handler # - для теста в консоли.
-from decorators import log
 import argparse
 import threading
 from PyQt5.QtWidgets import QApplication
 
 from common.default_conf import *
-from common.utils import get_message, send_message
 from common.metaclasses import ClientVerifier
 from common.decorators import log
 
@@ -24,10 +19,9 @@ logger = logging.getLogger('messengerapp_client')
 # stream_handler.setLevel(logging.INFO)   # - для теста в консоли.
 
 
-@log
 def load_params():  # TODO try to use argparse
     try:
-        name = 'Demo8'  # можно использвать для отладки в Pycharm, иначе падает если юзер не в списке подключенных
+        name = ''
         server_address = sys.argv[1]
         server_port = int(sys.argv[2])
         if '-n' in sys.argv:
@@ -52,35 +46,31 @@ def make_sock_send_msg_get_answer():
 
     client_app = QApplication(sys.argv)
 
-    database = ClientStorage(client_account_name)
-
     if not client_account_name:
         start_dialog = UsernameDialog()
         client_app.exec_()
-    if start_dialog.ok_pressed:
-        client_account_name = start_dialog.client_name.text()
-        del start_dialog
-    else:
-        exit(0)
-
-        client_account_name = input('Введите имя пользователя: ')
+        if start_dialog.ok_pressed:
+            client_account_name = start_dialog.client_name.text()
+            del start_dialog
+        else:
+            exit(0)
 
     logger.info(
         f'Запущен клиент с парамертами: адрес сервера - {server_address}, '
         f'порт - {server_port}, режим работы - {client_account_name}')
+
+    database = ClientStorage(client_account_name)
+
     try:
         sock = ClientInteraction(server_address, server_port, client_account_name, database)
 
         # response = get_response(get_message(sock))
         # logger.info(f'Установлено соединение с сервером. Ответ: {response}')
         # print(f'Установлено соединение с сервером.')
-
-    except (ValueError, json.JSONDecodeError):
-        logger.error('Не удалось декодировать сообщение сервера.')
-    except (ConnectionRefusedError, ConnectionError):
-        logger.critical(
-            f'Не удалось подключиться к серверу {server_address}:{server_port}.')
+    except Exception as ex:
+        print(ex)
         exit(1)
+
     sock.setDaemon(True)
     sock.start()
 

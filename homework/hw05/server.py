@@ -6,18 +6,20 @@ import sys
 import json
 import threading
 import time
+import traceback
+
 from PyQt5.QtWidgets import QApplication, QMessageBox
 from PyQt5.QtCore import QTimer
-from server.server_ui import MainWindow, HistoryWindow, ConfigWindow, gui_create_model, create_stat_model
+from server.server_ui import MainWindow, HistoryWindow, ConfigWindow, create_users_model, create_history_model
 import logs.log_configs.server_log_config
 import logging
 from logs.log_configs.server_log_config import stream_handler  # - для теста в консоли.
-from decorators import log
+from common.decorators import log
 
 from common.default_conf import *
 from common.utils import get_message, send_message
 
-from metaclasses import ServerVerifier
+from common.metaclasses import ServerVerifier
 
 from server.server_db import ServerStorage
 
@@ -53,8 +55,8 @@ class Server (threading.Thread, metaclass=ServerVerifier):
     def __init__(self, listen_address, listen_port, server_database):
         self.address = listen_address
         self.port = listen_port
-        self.clients = []
-        self.messages = []
+        self.clients_list = []
+        self.list_of_messages = []
         self.account_names_list = {}
         self.server_database = server_database
         super().__init__()
@@ -75,38 +77,38 @@ class Server (threading.Thread, metaclass=ServerVerifier):
                 pass
             else:
                 logger.info(f'Установлено соедение с клиентом {client_address}')
-                self.clients.append(client)
+                self.clients_list.append(client)
 
             get_message_list = []
             send_message_list = []
             # self.errors_list = []
 
             try:
-                if self.clients:
-                    get_message_list, send_message_list, errors_list = select.select(self.clients, self.clients, [], 0)
+                if self.clients_list:
+                    get_message_list, send_message_list, errors_list = select.select(self.clients_list,
+                                                                                     self.clients_list, [], 0)
             except OSError:
                 pass
 
             if get_message_list:
-                info = 'good client' # ЗАГЛУШКА ДЛЯ ТЕСТА ПЕРЕДАЧИ ДОП ПАРАМЕТРА В БАЗУ
+                # info = 'good client' # ЗАГЛУШКА ДЛЯ ТЕСТА ПЕРЕДАЧИ ДОП ПАРАМЕТРА В БАЗУ
                 for client_with_message in get_message_list:
                     try:
                         self.process_client_message(get_message(client_with_message),
-                                                    self.messages, client_with_message,
-                                                    self.clients, self.account_names_list, info)
+                                                    client_with_message)
                     except Exception as ex:
-                        print(ex)
+                        print(f'Error: {traceback.format_exc()}')
                         logger.info(f'Потеряно соединение с клиентом {client_with_message.getpeername()}.')
-                        self.clients.remove(client_with_message)
+                        self.clients_list.remove(client_with_message)
 
-            for msg in self.messages:
+            for msg in self.list_of_messages:
                 try:
                     self.prc_message(msg, self.account_names_list, send_message_list)
                 except Exception:
                     logger.info(f'Потеряно соединение с клиентом {msg[TO][ACCOUNT_NAME]}.')
-                    self.clients.remove(self.account_names_list[msg[TO][ACCOUNT_NAME]])
+                    self.clients_list.remove(self.account_names_list[msg[TO][ACCOUNT_NAME]])
                     del self.account_names_list[msg[TO][ACCOUNT_NAME]]
-            self.messages.clear()
+            self.list_of_messages.clear()
 
     # обработка сообщения
     @log
@@ -126,19 +128,17 @@ class Server (threading.Thread, metaclass=ServerVerifier):
 
     # пришем сообщения от пользователя
     @log
-    def process_client_message(self, message, list_of_messages, client_with_message, clients_list, account_names_list,
-                               info):
+    def process_client_message(self, message, client_with_message):
         global new_connection
         logger.debug(f'Разбор сообщения от клиента {client_with_message}')
-
         if ACTION in message and message[ACTION] == PRESENCE and TIME in message \
                 and USER in message:
-            if message[USER][ACCOUNT_NAME] not in account_names_list.keys():
+            if message[USER][ACCOUNT_NAME] not in self.account_names_list.keys():
                 self.account_names_list[message[USER][ACCOUNT_NAME]] = client_with_message
                 client_ip_address, client_port = client_with_message.getpeername()
-                info = message[USER][INFO]
+                # info = message[USER][INFO]
                 # print(client_ip_address, client_port, info)
-                self.server_database.user_login(message[USER][ACCOUNT_NAME], info, client_ip_address, client_port)
+                self.server_database.user_login(message[USER][ACCOUNT_NAME], client_ip_address, client_port)
                 answer = send_message(client_with_message, {RESPONSE: 200})
                 logger.info(answer)
                 with connection_lock:
@@ -146,20 +146,30 @@ class Server (threading.Thread, metaclass=ServerVerifier):
             else:
                 response = {RESPONSE: 400, ERROR: 'Пользователь с таким именем уже существует.'}
                 send_message(client_with_message, response)
-                clients_list.remove(client_with_message)
+                self.clients_list.remove(client_with_message)
                 client_with_message.close()
             return
         elif ACTION in message and message[ACTION] == MESSAGE and \
                 TIME in message and MESSAGE_CLIENT in message and \
                 FROM in message and TO in message:
             # print(message[FROM][ACCOUNT_NAME], message[TO][ACCOUNT_NAME])
-            return list_of_messages.append(message)
+            if message[TO][ACCOUNT_NAME] in self.account_names_list:
+                self.list_of_messages.append(message)
+                self.server_database.message_count_history(message[FROM][ACCOUNT_NAME], message[TO][ACCOUNT_NAME])
+                send_message(client_with_message, {RESPONSE: '200'})
+            else:
+                response = {RESPONSE: '400', ERROR: 'Пользователь не зарегистрирован на сервере.'}
+                send_message(client_with_message, response)
+            return
+            # return self.list_of_messages.append(message)
 
         elif ACTION in message and message[ACTION] == GET_CONTACTS and \
                 TIME in message and USER in message and \
                 self.account_names_list[message[USER][ACCOUNT_NAME]] == client_with_message:
-            response = {RESPONSE: 202, 'contacts_list': None}
-            response['contacts_list'] = self.server_database.contacts_list(message[USER][ACCOUNT_NAME])
+            response = {
+                RESPONSE: 202,
+                'contacts_list': self.server_database.contacts_list(message[USER][ACCOUNT_NAME])
+            }
             send_message(client_with_message, response)
 
         elif ACTION in message and message[ACTION] == ADD_CONTACT and \
@@ -185,10 +195,10 @@ class Server (threading.Thread, metaclass=ServerVerifier):
             send_message(client_with_message, response)
 
         elif ACTION in message and message[ACTION] == 'exit' and ACCOUNT_NAME in message:
-            clients_list.remove(account_names_list[message[ACCOUNT_NAME]])
+            self.clients_list.remove(self.account_names_list[message[ACCOUNT_NAME]])
             self.server_database.user_logout(message[ACCOUNT_NAME])
-            clients_list[message[ACCOUNT_NAME]].close()
-            del clients_list[message[ACCOUNT_NAME]]
+            # self.clients_list[message[ACCOUNT_NAME]].close()
+            # del self.clients_list[message[ACCOUNT_NAME]]
             with connection_lock:
                 new_connection = True
             return
@@ -252,45 +262,11 @@ def make_sock_get_msg_send_answer():
     server.daemon = True
     server.start()
 
-    # Добавим команды для получения результатов из базы (работает пока не запущен хотя бы один клиент)
-    while True:
-        cmd = input('Введите комманду: ')
-        if cmd == 'users':
-            for usr in sorted(server_database.select_users()):
-                print(f'Пользователь с логином {usr[0]}, дата создания - {usr[1]}, последний вход - {usr[1]}')
-        elif cmd == 'active_users':
-            for usr in sorted(server_database.select_active_users()):
-                print(f'Активный пользователь {usr[0]}, ip - {usr[1]}, port - {usr[2]}, дата и время входа - {usr[3]}')
-        elif cmd == 'history':
-            usr = input('Введите username/login пользователя: ')
-            for hist in sorted(server_database.login_history_user(usr)):
-                print(f'Юзер - {hist[0]}, дата входа - {hist[1]}, ip - {hist[2]}, port - {hist[3]}')
-        elif cmd == 'contacts':
-            usr = input('Введите username/login пользователя: ')
-            for contact in sorted(server_database.contacts_list(usr)):
-                print(f'Контакт - {contact}')
-        elif cmd == 'add_contact':
-            owner = input('Кому добавить новый контакт: ')
-            new_contact = input('Введите username нового контакта: ')
-            server_database.add_contact(owner, new_contact)
-        elif cmd == 'exit':
-            print('Завершение работы')
-            break
-        elif cmd == 'help':
-            print('users - список юзеров,\n'
-                  'active_users - список активных юзеров,\n'
-                  'history - история посещений юзера\n'
-                  'contacts - cписок контактов юзера\n'
-                  'add_contact - добавить контакт\n' 
-                  'exit - выход')
-        else:
-            print('Неверная команда, ведите help для получения списка команд')
-
     # создание графического интерфейса
     server_app = QApplication(sys.argv)
     main_window = MainWindow()
     main_window.statusBar().showMessage('Server working')
-    main_window.active_users_table.setModel(gui_create_model(server_database))
+    main_window.active_users_table.setModel(create_users_model(server_database))
     main_window.active_users_table.resizeColumnsToContents()
     main_window.active_users_table.resizeRowsToContents()
 
@@ -299,7 +275,7 @@ def make_sock_get_msg_send_answer():
         global new_connection
         if new_connection:
             main_window.active_users_table.setModel(
-                gui_create_model(server_database))
+                create_users_model(server_database))
             main_window.active_users_table.resizeColumnsToContents()
             main_window.active_users_table.resizeRowsToContents()
             with connection_lock:
@@ -309,7 +285,7 @@ def make_sock_get_msg_send_answer():
     def show_statistics():
         global stat_window
         stat_window = HistoryWindow()
-        stat_window.login_history_table.setModel(create_stat_model(server_database))
+        stat_window.login_history_table.setModel(create_history_model(server_database))
         stat_window.login_history_table.resizeColumnsToContents()
         stat_window.login_history_table.resizeRowsToContents()
         stat_window.show()
@@ -328,7 +304,6 @@ def make_sock_get_msg_send_answer():
             config['SETTINGS']['listen_address'] = config_window.ip.text()
             if 1023 < port < 65536:
                 config['SETTINGS']['default_port'] = str(port)
-                print(port)
                 with open('server/server_config.ini', 'w') as conf:
                     config.write(conf)
                     message.information(

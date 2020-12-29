@@ -7,7 +7,7 @@ from PyQt5.QtCore import pyqtSlot, QEvent, Qt
 sys.path.append('../')
 from client.client_ui import Ui_MainClientWindow
 from client.client_db import ClientStorage
-from client.iteraction import ClientInteraction
+from client.interaction import ClientInteraction
 from client.qdialogs import UsernameDialog, AddContactDialog, DeleteContactDialog
 
 logger = logging.getLogger('messengerapp_client')
@@ -94,7 +94,7 @@ class ClientMainWindow(QMainWindow):
     # Функция добавления контакта
     def add_contact_window(self):
         global select_dialog
-        select_dialog = AddContactDialog(self.transport, self.database)
+        select_dialog = AddContactDialog(self.sock, self.database)
         select_dialog.button_ok.clicked.connect(lambda: self.add_contact_action(select_dialog))
         select_dialog.show()
 
@@ -134,7 +134,7 @@ class ClientMainWindow(QMainWindow):
     def delete_contact(self, item):
         selected = item.selector.currentText()
         try:
-            self.transport.remove_contact(selected)
+            self.sock.remove_contact(selected)
         except Exception as err:
             self.messages.critical(self, 'Ошибка сервера', err.text)
         except OSError as err:
@@ -143,7 +143,7 @@ class ClientMainWindow(QMainWindow):
                 self.close()
             self.messages.critical(self, 'Ошибка', 'Таймаут соединения!')
         else:
-            self.database.del_contact(selected)
+            self.database.remove_contact(selected)
             self.clients_list_update()
             logger.info(f'Успешно удалён контакт {selected}')
             self.messages.information(self, 'Успех', 'Контакт успешно удалён.')
@@ -161,7 +161,7 @@ class ClientMainWindow(QMainWindow):
         if not message_text:
             return
         try:
-            self.sock.send_message(self.current_chat, message_text)
+            self.sock.send_new_message(self.current_chat, message_text)
             pass
         except Exception as err:
             self.messages.critical(self, 'Ошибка', err.text)
@@ -174,42 +174,15 @@ class ClientMainWindow(QMainWindow):
             self.messages.critical(self, 'Ошибка', 'Потеряно соединение с сервером!')
             self.close()
         else:
-            self.database.save_message(self.current_chat, message_text)
+            # print(self.current_chat)
+            self.database.save_message(self.sock.client_account_name, self.current_chat, message_text)
             logger.debug(f'Отправлено сообщение для {self.current_chat}: {message_text}')
             self.history_list_update()
-
-    # Слот приема нового сообщений
-    @pyqtSlot(str)
-    def message(self, sender):
-        if sender == self.current_chat:
-            self.history_list_update()
-        else:
-            # Проверим есть ли такой пользователь в контактах:
-            if self.database.check_contact(sender):
-                # Если есть, спрашиваем о желании открыть с ним чат и открываем при Yes
-                if self.messages.question(self, f'Новое сообщение\n',
-                                                f'Получено новое сообщение от {sender}, открыть чат с ним?',
-                                          QMessageBox.Yes,
-                                          QMessageBox.No) == QMessageBox.Yes:
-                    self.current_chat = sender
-                    self.set_active_user()
-            else:
-                print('NO')
-                # Если пользователя нет, то спрашиваем хотим ли добавить юзера в контакты.
-                if self.messages.question(self, 'Новое сообщение\n',
-                                          f'Получено новое сообщение от {sender}.\n'
-                                          f'Данного пользователя нет в вашем списке контактов.\n'
-                                          f'Добавить в контакты и открыть чат с ним?',
-                                          QMessageBox.Yes,
-                                          QMessageBox.No) == QMessageBox.Yes:
-                    self.add_contact(sender)
-                    self.current_chat = sender
-                    self.set_active_user()
 
     # Заполнение истории сообщений
     def history_list_update(self):
         # Получаем историю сортированную по дате
-        message_list = sorted(self.database.get_history(self.current_chat), key=lambda new_item: new_item[3])
+        message_list = sorted(self.database.get_message_history(self.current_chat), key=lambda new_item: new_item[3])
         # Если модель не создана, создаем
         if not self.history_model:
             self.history_model = QStandardItemModel()
@@ -225,7 +198,8 @@ class ClientMainWindow(QMainWindow):
         # Записи в обратном порядке, поэтому выбираем их с конца и не более 50
         for i in range(start_index, length):
             item = message_list[i]
-            if item[1] == 'in':
+            # print(item, self.current_chat)
+            if item[0] == self.current_chat:
                 mess = QStandardItem(f'Входящее от {item[3].replace(microsecond=0)}:\n {item[2]}')
                 mess.setEditable(False)
                 mess.setBackground(QBrush(QColor(255, 213, 213)))
@@ -239,6 +213,33 @@ class ClientMainWindow(QMainWindow):
                 self.history_model.appendRow(mess)
         self.ui.list_messages.scrollToBottom()
 
+    # Слот приема нового сообщений
+    @pyqtSlot(str)
+    def message(self, sender):
+        # print(sender)
+        if sender == self.current_chat:
+            self.history_list_update()
+        else:
+            # Проверим есть ли такой пользователь в контактах:
+            if self.database.check_contact(sender):
+                # Если есть, спрашиваем о желании открыть с ним чат и открываем при Yes
+                if self.messages.question(self, f'Новое сообщение\n',
+                                          f'Получено новое сообщение от {sender}, открыть чат с ним?',
+                                          QMessageBox.Yes,
+                                          QMessageBox.No) == QMessageBox.Yes:
+                    self.current_chat = sender
+                    self.set_active_user()
+            else:
+                # Если пользователя нет, то спрашиваем хотим ли добавить юзера в контакты.
+                if self.messages.question(self, 'Новое сообщение\n',
+                                          f'Получено новое сообщение от {sender}.\n'
+                                          f'Данного пользователя нет в вашем списке контактов.\n'
+                                          f'Добавить в контакты и открыть чат с ним?',
+                                          QMessageBox.Yes,
+                                          QMessageBox.No) == QMessageBox.Yes:
+                    self.add_contact(sender)
+                    self.current_chat = sender
+                    self.set_active_user()
 
     @pyqtSlot()
     def connection_lost(self):

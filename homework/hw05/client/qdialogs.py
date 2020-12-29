@@ -84,9 +84,9 @@ class AddContactDialog(QDialog):
         self.selector.clear()
         # множества всех контактов и контактов клиента
         contacts_list = set(self.database.get_contacts())
-        users_list = set(self.database.get_users())
+        users_list = set(self.database.get_known_users())
         # Удаление самого себя из списка пользователей, чтобы нельзя было добавить себя
-        users_list.remove(self.sock.username)
+        users_list.remove(self.sock.client_account_name)
         # Добавление списка контактов
         self.selector.addItems(users_list - contacts_list)
 
@@ -94,12 +94,12 @@ class AddContactDialog(QDialog):
     # затем содержимое предполагаемых контактов
     def update_possible_contacts(self):
         try:
-            self.sock.user_list_update()
+            self.sock.get_users_list()
         except OSError:
             pass
         else:
             logger.debug('Обновление списка пользователей с сервера выполнено')
-            self.possible_contacts_update()
+            self.select_contacts_update()
 
 
 # Диалог выбора контакта для удаления
@@ -131,7 +131,7 @@ class DeleteContactDialog(QDialog):
         self.button_cancel.clicked.connect(self.close)
 
         # заполнитель контактов для удаления
-        self.selector.addItems(sorted(self.database.get_contacts()))
+        # self.selector.addItems(sorted(self.database.get_contacts()))
 
 
 if __name__ == '__main__':
